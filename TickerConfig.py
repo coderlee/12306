@@ -83,7 +83,7 @@ HTTP_TYPE = "http"
 #  password: "授权码"
 #  host: "smtp.qq.com"
 EMAIL_CONF = {
-    "IS_MAIL": True,
+    "IS_MAIL": False,
     "email": "",
     "notice_email_list": "",
     "username": "",
@@ -93,7 +93,7 @@ EMAIL_CONF = {
 
 # 是否开启 server酱 微信提醒， 使用前需要前往 http://sc.ftqq.com/3.version 扫码绑定获取 SECRET 并关注获得抢票结果通知的公众号
 SERVER_CHAN_CONF = {
-    "is_server_chan": True,
+    "is_server_chan": False,
     "secret": "xxx"
 }
 
@@ -123,7 +123,7 @@ OPEN_TIME = "09:00:00"
 COOKIE_TYPE = 3
 # 如果COOKIE_TYPE=1，则需配置chromeDriver路径,下载地址http://chromedriver.storage.googleapis.com/index.html
 # chromedriver配置版本只要和chrome的大版本匹配就行
-CHROME_PATH = "D:/javaworkspace/YsgWebAutoTest/chromedriver.exe"
+CHROME_PATH = "D:/javaworkspace/xxxx/chromedriver.exe"
 
 # 为了docker37 准备的环境变量，windows环境可以不用管这个参数
 CHROME_CHROME_PATH = "/opt/google/chrome/google-chrome"
